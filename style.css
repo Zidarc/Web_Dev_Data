@@ -1,0 +1,70 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7ed;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    ;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #ffe8ca;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #f72020;
+}
+#recipeNameInput{
+    width: 150px;
+}
+#recipeItemInput{
+    width: 400px;
+}
+.left-align {
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.container {
+    position: relative; /* Make the container a positioning context */
+    background-color: #96c8fd; /* Optional: Add a background color to the container */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    color: #000000
+}
