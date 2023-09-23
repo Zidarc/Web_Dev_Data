@@ -1,0 +1,57 @@
+/* Basic styling for your blog */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Add more CSS for your specific design */
+
+/* Theme switcher styles */
+.theme-switcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Comment form styles */
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* Add more styles as needed */
+
