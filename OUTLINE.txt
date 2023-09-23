@@ -1,0 +1,34 @@
+Session 1: Introduction to HTML (1 hour)
+HTML document structure
+Basic HTML elements (e.g., headings, paragraphs, lists)
+Creating links and images
+HTML forms and input elements
+Semantic HTML: Proper use of semantic elements (e.g., <header>, <nav>, <section>, <article>, <footer>).
+HTML forms with advanced input types and attributes.
+Embedding audio and video.
+
+
+Task 1: HTML Challenge (25 minutes)
+Create a web page that includes a blog article with proper semantic HTML structure. Add a contact form with various input types, including radio buttons, checkboxes, and textareas. Ensure that the page is accessible and includes alternative text for multimedia elements.
+
+
+Session 2: Introduction to CSS (1 hour)
+CSS selectors and properties
+Styling text and backgrounds
+Layout and positioning elements with CSS
+CSS transitions and animations (basic overview)
+
+Task 2: CSS Challenge (25 minutes)
+Participants will be presented with a web page created using HTML and will be tasked with styling it using CSS based on the concepts taught in the previous hour.
+
+
+Session 3: Introduction to JavaScript (1 hour)
+JavaScript variables, data types, and operators
+Conditional statements (if, else)
+Loops (for and while)
+Functions and event handling
+DOM manipulation (interacting with HTML elements)
+
+Task 3: JavaScript Challenge (25 minutes)
+
+Make the website they have designed earlier dynamic.
