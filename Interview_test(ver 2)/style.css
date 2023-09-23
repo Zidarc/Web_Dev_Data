@@ -1,0 +1,161 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li, p, button {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7ed;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 70%;
+    padding: 20px;
+    ;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 25%;
+}
+
+button:hover {
+    background-color: #f72020;
+}
+#recipeNameInput{
+    width: 200px;
+}
+#recipeItemInput{
+    width: 400px;
+}
+.image {
+    position:absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.container {
+    position: relative; /* Make the container a positioning context */
+    background-color: #96c8fd; /* Optional: Add a background color to the container */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    color: #000000
+    
+}
+/* Add transition to li elements */
+li {
+    background-color: #ffe8ca;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+}
+
+/* Add hover effect */
+li:hover {
+    transform: scale(1.05);
+}
+
+/* Style the input fields */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the placeholders */
+input[type="text"]::placeholder {
+    color: #999;
+}
+
+/* Add a subtle hover effect */
+input[type="text"]:hover {
+    border-color: #666;
+}
+
+/* Add focus styles */
+input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Style for the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #002c5c;
+    transition:background-color 0.8s ease;
+}
+#filterDropdown {
+    appearance: none; /* Remove default browser styles */
+    padding: 10px; /* Adjust padding as needed */
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 15%; /* Make the select element full width */
+    cursor: pointer;
+    background-color: #fff; /* Background color */
+}
+
+
+/* Add hover effect */
+#filterDropdown:hover {
+    border-color: #666;
+}
+
+/* Add focus styles */
+#filterDropdown:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255,0.5);
+}
+
+/* Style the dropdown options */
+#filterDropdown option {
+    background-color: #fff; /* Background color of options */
+    color: #333; /* Text color of options */
+}
+
+/* Style the selected option */
+#filterDropdown option:checked {
+    background-color: #007bff; /* Background color of selected option */
+    color: #fff; /* Text color of selected option */
+}
+
